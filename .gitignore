@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+~$*
+.mscbackup/
+*.mscz~
+*.autosave
+
+# Source images and other raw working material
+data/raw/
+
+# OCR/extraction intermediate material
+data/extracted/
+data/ocr/
+
+# MuseScore working files
+data/mei/ms-files/
