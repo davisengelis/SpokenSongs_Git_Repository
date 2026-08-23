@@ -1,0 +1,23 @@
+Last login: Sun Aug 23 15:18:17 on ttys001
+(base) davisengelis@Daviss-MacBook-Pro ~ % for f in /path/to/png_folder/*.png; do
+    name=$(basename "$f" .png)
+    if [ ! -f "/path/to/xml_folder/$name.xml" ]; then
+        echo "$name.png"
+    fi
+done > missing_xml.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
