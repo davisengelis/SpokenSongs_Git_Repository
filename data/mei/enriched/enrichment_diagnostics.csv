@@ -1,0 +1,104 @@
+﻿source_number,vitolins_source,excel_row,witnessId,mode,variants_found,variant_count,measure_counts,output_file,status,message
+1,"V II, 1, 41",2,IR,variants,a;b,2,a:9;b:9,V2-0001.mei,success,Merged variant witnesses successfully.
+2,"V II, 2, 41",3,,single,,0,,V2-0002.mei,success,Enriched single MEI successfully.
+10,"V II, 10, 43-44",4,,single,,0,,V2-0010.mei,success,Enriched single MEI successfully.
+21,"V II, 21, 48",6,,single,,0,,V2-0021.mei,success,Enriched single MEI successfully.
+44,,,,single,,0,,V2-0044.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 44, was found."
+46,"V II, 46, 55",7,,single,,0,,V2-0046.mei,success,Enriched single MEI successfully.
+62,"V II, 62, 61",8,,single,,0,,V2-0062.mei,success,Enriched single MEI successfully.
+63,"V II, 63, 61",9,,single,,0,,V2-0063.mei,success,Enriched single MEI successfully.
+70,"V II, 70, 64",14,,single,,0,,V2-0070.mei,success,Enriched single MEI successfully.
+71,"V II, 71, 64",15,,single,,0,,V2-0071.mei,success,Enriched single MEI successfully.
+74,"V II, 74, 65",18,IR,variants,,0,,V2-0074.mei,error,"Metadata says witnessId='IR', but an unsuffixed raw MEI is present: V2-0074.mei"
+91,"V II, 91, 71",25,,single,,0,,V2-0091.mei,success,Enriched single MEI successfully.
+95,"V II, 95, 72",26,,single,,0,,V2-0095.mei,success,Enriched single MEI successfully.
+96,"V II, 96, 72",27,,single,,0,,V2-0096.mei,success,Enriched single MEI successfully.
+98,"V II, 98, 73",29,,single,,0,,V2-0098.mei,success,Enriched single MEI successfully.
+104,"V II, 104, 75",31,,single,,0,,V2-0104.mei,success,Enriched single MEI successfully.
+107,"V II, 107, 76",34,,single,,0,,V2-0107.mei,success,Enriched single MEI successfully.
+111,"V II, 111, 77",37,,single,,0,,V2-0111.mei,success,Enriched single MEI successfully.
+113,,,,single,,0,,V2-0113.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 113, was found."
+117,"V II, 117, 79",40,,single,,0,,V2-0117.mei,success,Enriched single MEI successfully.
+140,"V II, 140, 88",43,,single,,0,,V2-0140.mei,success,Enriched single MEI successfully.
+141,"V II, 141, 88",44,,single,,0,,V2-0141.mei,success,Enriched single MEI successfully.
+142,"V II, 142, 88",45,,single,,0,,V2-0142.mei,success,Enriched single MEI successfully.
+143,"V II, 143, 89",46,,single,,0,,V2-0143.mei,success,Enriched single MEI successfully.
+161,"V II, 161, 94",50,,single,,0,,V2-0161.mei,success,Enriched single MEI successfully.
+182,"V II, 182, 101",52,,single,,0,,V2-0182.mei,success,Enriched single MEI successfully.
+183,"V II, 183, 101",53,,single,,0,,V2-0183.mei,success,Enriched single MEI successfully.
+184,"V II, 184, 101",54,,single,,0,,V2-0184.mei,success,Enriched single MEI successfully.
+187,"V II, 187, 102",56,,single,,0,,V2-0187.mei,success,Enriched single MEI successfully.
+237,"V II, 237, 115",58,,single,,0,,V2-0237.mei,success,Enriched single MEI successfully.
+242,"V II, 242, 117",60,,single,,0,,V2-0242.mei,success,Enriched single MEI successfully.
+243,"V II, 243, 117",61,,single,,0,,V2-0243.mei,success,Enriched single MEI successfully.
+261,"V II, 261, 124",63,,single,,0,,V2-0261.mei,success,Enriched single MEI successfully.
+262,"V II, 262, 124",64,,single,,0,,V2-0262.mei,success,Enriched single MEI successfully.
+289,"V II, 289, 134",66,,single,,0,,V2-0289.mei,success,Enriched single MEI successfully.
+290,"V II, 290, 135",67,,single,,0,,V2-0290.mei,success,Enriched single MEI successfully.
+293,,,,single,,0,,V2-0293.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 293, was found."
+295,,,,single,,0,,V2-0295.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 295, was found."
+307,,,,single,,0,,V2-0307.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 307, was found."
+312,,,,single,,0,,V2-0312.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 312, was found."
+317,,,,single,,0,,V2-0317.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 317, was found."
+318,,,,single,,0,,V2-0318.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 318, was found."
+320,,,,single,,0,,V2-0320.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 320, was found."
+340,,,,single,,0,,V2-0340.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 340, was found."
+341,,,,single,,0,,V2-0341.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 341, was found."
+343,,,,single,,0,,V2-0343.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 343, was found."
+345,,,,single,,0,,V2-0345.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 345, was found."
+346,,,,single,,0,,V2-0346.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 346, was found."
+347,,,,single,,0,,V2-0347.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 347, was found."
+348,,,,single,,0,,V2-0348.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 348, was found."
+351,,,,single,,0,,V2-0351.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 351, was found."
+353,,,,single,,0,,V2-0353.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 353, was found."
+354,,,,single,,0,,V2-0354.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 354, was found."
+356,,,,single,,0,,V2-0356.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 356, was found."
+396,,,,single,,0,,V2-0396.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 396, was found."
+403,,,,single,,0,,V2-0403.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 403, was found."
+419,,,,single,,0,,V2-0419.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 419, was found."
+424,,,,single,,0,,V2-0424.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 424, was found."
+439,,,,single,,0,,V2-0439.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 439, was found."
+470,,,,single,,0,,V2-0470.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 470, was found."
+471,,,,single,,0,,V2-0471.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 471, was found."
+476,,,,single,,0,,V2-0476.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 476, was found."
+477,,,,single,,0,,V2-0477.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 477, was found."
+499,,,,single,,0,,V2-0499.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 499, was found."
+502,,,,single,,0,,V2-0502.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 502, was found."
+503,,,,single,,0,,V2-0503.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 503, was found."
+504,,,,single,,0,,V2-0504.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 504, was found."
+506,,,,single,,0,,V2-0506.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 506, was found."
+509,,,,single,,0,,V2-0509.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 509, was found."
+510,,,,single,,0,,V2-0510.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 510, was found."
+511,,,,single,,0,,V2-0511.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 511, was found."
+535,,,,single,,0,,V2-0535.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 535, was found."
+537,,,,single,,0,,V2-0537.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 537, was found."
+538,,,,single,,0,,V2-0538.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 538, was found."
+542,,,,single,,0,,V2-0542.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 542, was found."
+547,,,,single,,0,,V2-0547.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 547, was found."
+548,,,,single,,0,,V2-0548.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 548, was found."
+560,"V II, 560, 220",141,IR,variants,a;b,2,a:8;b:8,V2-0560.mei,success,Merged variant witnesses successfully.
+562,,,,single,,0,,V2-0562.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 562, was found."
+565,,,,single,,0,,V2-0565.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 565, was found."
+570,,,,single,,0,,V2-0570.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 570, was found."
+571,,,,single,,0,,V2-0571.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 571, was found."
+575,,,,single,,0,,V2-0575.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 575, was found."
+578,,,,single,,0,,V2-0578.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 578, was found."
+579,,,,single,,0,,V2-0579.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 579, was found."
+580,,,,single,,0,,V2-0580.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 580, was found."
+581,,,,single,,0,,V2-0581.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 581, was found."
+583,,,,single,,0,,V2-0583.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 583, was found."
+585,,,,single,,0,,V2-0585.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 585, was found."
+587,,,,single,,0,,V2-0587.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 587, was found."
+592,,,,single,,0,,V2-0592.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 592, was found."
+617,,,,single,,0,,V2-0617.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 617, was found."
+618,,,,single,,0,,V2-0618.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 618, was found."
+674,,,,single,,0,,V2-0674.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 674, was found."
+682,,,,single,,0,,V2-0682.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 682, was found."
+685,,,,single,,0,,V2-0685.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 685, was found."
+690,,,,single,,0,,V2-0690.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 690, was found."
+692,,,,single,,0,,V2-0692.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 692, was found."
+693,,,,single,,0,,V2-0693.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 693, was found."
+695,,,,single,,0,,V2-0695.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 695, was found."
+696,,,,single,,0,,V2-0696.mei,error,"No metadata row with meiStatus='r' and VitolinsSource matching V II, 696, was found."
+743,"V II, 743, 287",231,IR,variants,a;b,2,a:9;b:9,V2-0743.mei,success,Merged variant witnesses successfully.
+779,"V II, 779, 298",260,IR,variants,a;b;c,3,a:8;b:8;c:8,V2-0779.mei,success,Merged variant witnesses successfully.

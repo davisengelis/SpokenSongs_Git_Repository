@@ -2,9 +2,9 @@
 set -euo pipefail
 
 PROJECT_ROOT="/Users/davisengelis/SpokenSongs_CodeBook"
-SCRIPT="$PROJECT_ROOT/scripts/enrich_mei_from_metadata.py"
+SCRIPT="$PROJECT_ROOT/scripts/enrich_mei_from_metadata_variants.py"
 INPUT_DIR="$PROJECT_ROOT/data/mei/raw_ms_export"
-METADATA="$PROJECT_ROOT/metadata/LindaMetadata_1.xlsx"
+METADATA="$PROJECT_ROOT/metadata/LindaMetadata_2.xlsx"
 OUTPUT_DIR="$PROJECT_ROOT/data/mei/enriched"
 
 if [[ -x "$PROJECT_ROOT/.venv/bin/python" ]]; then

@@ -1,0 +1,33 @@
+Last login: Wed Aug 26 12:54:08 on ttys003
+(base) davisengelis@Daviss-MacBook-Pro scripts % python lyrics_ocr_correction_prototype_v2.py \
+  --png-dir /Users/davisengelis/SpokenSongs_CodeBook/data/mei/my_test/png \ 
+  --xml-dir /Users/davisengelis/SpokenSongs_CodeBook/data/mei/my_test/xml \ 
+  --output-dir /Users/davisengelis/SpokenSongs_CodeBook/data/mei/my_test/output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

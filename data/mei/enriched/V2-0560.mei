@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1+basic">
+  <meiHead xmlns:ss="https://jvlma.lv/ns/spoken-songs" type="music">
+    <fileDesc>
+      <titleStmt>
+        <title>Nāc, mūsu māsiņa</title>
+        <respStmt>
+          <resp>Metadata enrichment and MEI preparation</resp>
+          <corpName>Spoken Songs project</corpName>
+        </respStmt>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <corpName>Spoken Songs project</corpName>
+          <resp>Responsible for this research encoding</resp>
+        </respStmt>
+      </pubStmt>
+      <sourceDesc>
+        <source xml:id="source_V2_0560">
+          <bibl>
+            <identifier type="VitolinsSource">V II, 560, 220</identifier>
+            <title>Nāc, mūsu māsiņa</title>
+            <respStmt>
+              <resp>Collector</resp>
+              <persName role="collector">E Melngailis</persName>
+            </respStmt>
+            <date type="collection">1925</date>
+          </bibl>
+        </source>
+        <source xml:id="wit_V2_0560_a" type="witness">
+          <identifier type="MEIWitness">V2-0560-a.mei</identifier>
+          <annot>Variant witness a.</annot>
+        </source>
+        <source xml:id="wit_V2_0560_b" type="witness">
+          <identifier type="MEIWitness">V2-0560-b.mei</identifier>
+          <annot>Variant witness b.</annot>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application xml:id="spoken_songs_metadata_enricher">
+          <name>Spoken Songs metadata enricher</name>
+          <p>Preserved the MuseScore-exported musical content and generated metadata from LindaMetadata_1.xlsx.</p>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <workList>
+      <work xml:id="work_V2_0560">
+        <identifier type="VitolinsSource">V II, 560, 220</identifier>
+        <title>Nāc, mūsu māsiņa</title>
+        <contributor role="collector">E Melngailis</contributor>
+        <contributor role="performer">
+          <persName>leva Steinblūma</persName>
+        </contributor>
+        <history>
+          <eventList type="collection">
+            <event>
+              <date>1925</date>
+              <geogName type="collectionPlace">Talsu Ārlavā</geogName>
+            </event>
+          </eventList>
+        </history>
+      </work>
+    </workList>
+    <extMeta>
+      <ss:record sourceNumber="560" metadataExcelRow="141">
+        <ss:workTitle>Nāc, mūsu māsiņa</ss:workTitle>
+        <ss:VitolinsSource>V II, 560, 220</ss:VitolinsSource>
+        <ss:collector>E Melngailis</ss:collector>
+        <ss:dateSource>1925</ss:dateSource>
+        <ss:placeSource>Talsu Ārlavā</ss:placeSource>
+        <ss:Latitude>57.39444351</ss:Latitude>
+        <ss:Longitude>22.60250092</ss:Longitude>
+        <ss:SingerFull>leva Steinblūma</ss:SingerFull>
+        <ss:SingerBirthYear>1874</ss:SingerBirthYear>
+        <ss:SingerBirthPlace>Dundagas jūrmalā</ss:SingerBirthPlace>
+        <ss:witnessId>IR</ss:witnessId>
+        <ss:singers>
+          <ss:singer slot="a">
+            <ss:givenName>leva</ss:givenName>
+            <ss:surname>Steinblūma</ss:surname>
+          </ss:singer>
+        </ss:singers>
+      </ss:record>
+    </extMeta>
+    <extMeta>
+      <ss:previousMeiHead>
+        <meiHead>
+          <fileDesc>
+            <titleStmt>
+              <title/>
+            </titleStmt>
+            <pubStmt>
+              <date isodate="2026-09-01T20:50:52"/>
+            </pubStmt>
+          </fileDesc>
+        </meiHead>
+      </ss:previousMeiHead>
+    </extMeta>
+    <revisionDesc>
+      <change isodate="2026-09-01">
+        <changeDesc>
+          <p>Metadata injected for source V II, 560; musical content preserved from V2-0560-a.mei, V2-0560-b.mei.</p>
+        </changeDesc>
+      </change>
+    </revisionDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <pgHead func="first"/>
+            <staffGrp>
+              <staffDef n="1" lines="5" keysig="1s" meter.count="3" meter.unit="8">
+                <label>Track 1</label>
+                <instrDef midi.instrnum="0"/>
+                <clef shape="G" line="2"/>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section xml:id="s1">
+            <pb/>
+            <app xml:id="app_m1">
+              <rdg source="#wit_V2_0560_a" xml:id="rdg_m1_a">
+                <measure xml:id="wa_my6uqoh" n="1">
+                  <staff xml:id="wa_m1s1" n="1">
+                    <layer xml:id="wa_m1s1l1" n="1">
+                      <note xml:id="wa_n8wr5qh" type="mscore-beam-none" dur="8" pname="d" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1gziwth" place="below" n="1">
+                          <syl>Nāc,</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_nvmnbv8" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vfrd61o" place="below" n="1">
+                          <syl con="d" wordpos="i">mū</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_n1to3bcu" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1f9kqib" place="below" n="1">
+                          <syl wordpos="t">su</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0560_b" xml:id="rdg_m1_b">
+                <measure xml:id="wb_m19tp2kg" n="1">
+                  <staff xml:id="wb_m1s1" n="1">
+                    <layer xml:id="wb_m1s1l1" n="1">
+                      <note xml:id="wb_ngebf9k" type="mscore-beam-none" dur="8" pname="d" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1b91h2j" n="1">
+                          <syl>Lai</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_nhd575v" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vpb256z" n="1">
+                          <syl con="d" wordpos="i">ta</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_n1cpasr9" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v22w81r" n="1">
+                          <syl wordpos="t">va</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+            </app>
+            <app xml:id="app_m2">
+              <rdg source="#wit_V2_0560_a" xml:id="rdg_m2_a">
+                <measure xml:id="wa_m8zvole" n="2">
+                  <staff xml:id="wa_m2s1" n="1">
+                    <layer xml:id="wa_m2s1l1" n="1">
+                      <note xml:id="wa_n1qfqlg6" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1knqkhx" place="below" n="1">
+                          <syl con="d" wordpos="i">mā</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_n1769nnp" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vlzrb5h" place="below" n="1">
+                          <syl con="d" wordpos="m">si</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_n1a5mnov" type="mscore-beam-none" dur="8" pname="d" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1wdf6qw" place="below" n="1">
+                          <syl wordpos="t">ņa,</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0560_b" xml:id="rdg_m2_b">
+                <measure xml:id="wb_m1jaapqp" n="2">
+                  <staff xml:id="wb_m2s1" n="1">
+                    <layer xml:id="wb_m2s1l1" n="1">
+                      <note xml:id="wb_n1g1gfjl" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vgzos04" n="1">
+                          <syl con="d" wordpos="i">lai</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_nn7da3s" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vjvwt2y" n="1">
+                          <syl con="d" wordpos="m">mi</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_no6hixq" type="mscore-beam-none" dur="8" pname="d" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1kzzldt" n="1">
+                          <syl wordpos="t">te</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+            </app>
+            <app xml:id="app_m3">
+              <rdg source="#wit_V2_0560_a" xml:id="rdg_m3_a">
+                <measure xml:id="wa_maxhryc" n="3">
+                  <staff xml:id="wa_m3s1" n="1">
+                    <layer xml:id="wa_m3s1l1" n="1">
+                      <note xml:id="wa_n14x0ua1" type="mscore-beam-none" dur="8" pname="d" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v154wauo" place="below" n="1">
+                          <syl con="d" wordpos="i">Pa</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_n1tszdo5" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1r7stam" place="below" n="1">
+                          <syl con="d" wordpos="m">stā</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_n1j0nw62" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v3pu52p" place="below" n="1">
+                          <syl con="d" wordpos="m">ve</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0560_b" xml:id="rdg_m3_b">
+                <measure xml:id="wb_m3kzcnp" n="3">
+                  <staff xml:id="wb_m3s1" n="1">
+                    <layer xml:id="wb_m3s1l1" n="1">
+                      <note xml:id="wb_n1jmyavw" type="mscore-beam-none" dur="8" pname="d" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v18xbu1t" n="1">
+                          <syl con="d" wordpos="i">lī</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_n122f07h" dur="4" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vfneujd" n="1">
+                          <syl con="d" wordpos="m">go</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+            </app>
+            <app xml:id="app_m4">
+              <rdg source="#wit_V2_0560_a" xml:id="rdg_m4_a">
+                <measure xml:id="wa_mbqf0sn" n="4">
+                  <staff xml:id="wa_m4s1" n="1">
+                    <layer xml:id="wa_m4s1l1" n="1">
+                      <note xml:id="wa_n8zova7" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1bstbg3" place="below" n="1">
+                          <syl con="d" wordpos="m">da</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_nqqt1d0" dur="4" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1smwqor" place="below" n="1">
+                          <syl wordpos="t">mi,</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0560_b" xml:id="rdg_m4_b">
+                <measure xml:id="wb_mbltx9g" n="4">
+                  <staff xml:id="wb_m4s1" n="1">
+                    <layer xml:id="wb_m4s1l1" n="1">
+                      <note xml:id="wb_n26fvjo" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1i0bi7i" n="1">
+                          <syl con="d" wordpos="m">ja</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_n6ftqc7" dur="4" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1ti08ck" n="1">
+                          <syl wordpos="t">si,</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+            </app>
+            <app xml:id="app_m5">
+              <rdg source="#wit_V2_0560_a" xml:id="rdg_m5_a">
+                <measure xml:id="wa_m45ohoc" n="5">
+                  <staff xml:id="wa_m5s1" n="1">
+                    <layer xml:id="wa_m5s1l1" n="1">
+                      <note xml:id="wa_nnyfwlq" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vg0yyz9" n="1">
+                          <syl>Nāc,</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_ny2egz1" type="mscore-beam-none" dur="8" pname="a" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1vriqme" n="1">
+                          <syl con="d" wordpos="i">mū</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_nqeauav" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v69i700" n="1">
+                          <syl wordpos="t">su</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0560_b" xml:id="rdg_m5_b">
+                <measure xml:id="wb_m8qadq4" n="5">
+                  <staff xml:id="wb_m5s1" n="1">
+                    <layer xml:id="wb_m5s1l1" n="1">
+                      <note xml:id="wb_n2frkvx" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1k279hd" n="1">
+                          <syl>Lai</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_ngx6lbp" type="mscore-beam-none" dur="8" pname="a" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1bpw4s0" n="1">
+                          <syl con="d" wordpos="i">ta</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_ncvetta" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vtiay2o" n="1">
+                          <syl wordpos="t">va</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+            </app>
+            <app xml:id="app_m6">
+              <rdg source="#wit_V2_0560_a" xml:id="rdg_m6_a">
+                <measure xml:id="wa_m1yd3dqm" n="6">
+                  <staff xml:id="wa_m6s1" n="1">
+                    <layer xml:id="wa_m6s1l1" n="1">
+                      <note xml:id="wa_n1cnz01g" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v14h7m6r" n="1">
+                          <syl con="d" wordpos="i">mā</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_n1rl2o7t" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1dzx5oc" n="1">
+                          <syl con="d" wordpos="m">si</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_n1s365yo" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1eykp8d" n="1">
+                          <syl wordpos="t">ņa,</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0560_b" xml:id="rdg_m6_b">
+                <measure xml:id="wb_m1daswmr" n="6">
+                  <staff xml:id="wb_m6s1" n="1">
+                    <layer xml:id="wb_m6s1l1" n="1">
+                      <note xml:id="wb_njazqkv" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v176ad01" n="1">
+                          <syl con="d" wordpos="i">Lai</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_n1rd9vi0" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vmo5s8" n="1">
+                          <syl con="d" wordpos="m">mi</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_n1xw2dyo" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vjifeio" n="1">
+                          <syl wordpos="t">te</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+            </app>
+            <app xml:id="app_m7">
+              <rdg source="#wit_V2_0560_a" xml:id="rdg_m7_a">
+                <measure xml:id="wa_m7urzlu" n="7">
+                  <staff xml:id="wa_m7s1" n="1">
+                    <layer xml:id="wa_m7s1l1" n="1">
+                      <note xml:id="wa_n8qa7no" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v6j94c8" n="1">
+                          <syl con="d" wordpos="i">Pa</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_n1i2u9r4" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1cy0qy6" n="1">
+                          <syl con="d" wordpos="m">stā</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_nxx6yj9" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vvt0xir" n="1">
+                          <syl con="d" wordpos="m">ve</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0560_b" xml:id="rdg_m7_b">
+                <measure xml:id="wb_m1flrk07" n="7">
+                  <staff xml:id="wb_m7s1" n="1">
+                    <layer xml:id="wb_m7s1l1" n="1">
+                      <note xml:id="wb_n1gzpwnk" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1o8hdmb" n="1">
+                          <syl con="d" wordpos="i">lī</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_nfvq4ku" dur="4" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1dv8wpt" n="1">
+                          <syl con="d" wordpos="m">go</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+            </app>
+            <sb type="mscore-manual"/>
+            <app xml:id="app_m8">
+              <rdg source="#wit_V2_0560_a" xml:id="rdg_m8_a">
+                <measure xml:id="wa_ma51e2u" right="end" n="8">
+                  <staff xml:id="wa_m8s1" n="1">
+                    <layer xml:id="wa_m8s1l1" n="1">
+                      <note xml:id="wa_n1fazj1g" dots="1" dur="4" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1swrj7p" n="1">
+                          <syl wordpos="t">dam.</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0560_b" xml:id="rdg_m8_b">
+                <measure xml:id="wb_m1da20oj" n="8">
+                  <staff xml:id="wb_m8s1" n="1">
+                    <layer xml:id="wb_m8s1l1" n="1">
+                      <note xml:id="wb_nw1mbq9" dots="1" dur="4" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v5pmvml" n="1">
+                          <syl wordpos="t">jas!</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+            </app>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

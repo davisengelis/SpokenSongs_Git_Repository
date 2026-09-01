@@ -1,0 +1,809 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1+basic">
+  <meiHead xmlns:ss="https://jvlma.lv/ns/spoken-songs" type="music">
+    <fileDesc>
+      <titleStmt>
+        <title>Tā sēdēja panāksnieces</title>
+        <respStmt>
+          <resp>Metadata enrichment and MEI preparation</resp>
+          <corpName>Spoken Songs project</corpName>
+        </respStmt>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <corpName>Spoken Songs project</corpName>
+          <resp>Responsible for this research encoding</resp>
+        </respStmt>
+      </pubStmt>
+      <sourceDesc>
+        <source xml:id="source_V2_0743">
+          <bibl>
+            <identifier type="VitolinsSource">V II, 743, 287</identifier>
+            <title>Tā sēdēja panāksnieces</title>
+            <respStmt>
+              <resp>Collector</resp>
+              <persName role="collector">E. Melngailis</persName>
+            </respStmt>
+            <date type="collection">1941</date>
+          </bibl>
+        </source>
+        <source xml:id="wit_V2_0743_a" type="witness">
+          <identifier type="MEIWitness">V2-0743-a.mei</identifier>
+          <annot>Variant witness a.</annot>
+        </source>
+        <source xml:id="wit_V2_0743_b" type="witness">
+          <identifier type="MEIWitness">V2-0743-b.mei</identifier>
+          <annot>Variant witness b.</annot>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application xml:id="spoken_songs_metadata_enricher">
+          <name>Spoken Songs metadata enricher</name>
+          <p>Preserved the MuseScore-exported musical content and generated metadata from LindaMetadata_1.xlsx.</p>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <workList>
+      <work xml:id="work_V2_0743">
+        <identifier type="VitolinsSource">V II, 743, 287</identifier>
+        <title>Tā sēdēja panāksnieces</title>
+        <contributor role="collector">E. Melngailis</contributor>
+        <contributor role="performer">
+          <persName>Barbara Grundmane</persName>
+        </contributor>
+        <history>
+          <eventList type="collection">
+            <event>
+              <date>1941</date>
+              <geogName type="collectionPlace">Aizputes Alsungā,</geogName>
+            </event>
+          </eventList>
+        </history>
+      </work>
+    </workList>
+    <extMeta>
+      <ss:record sourceNumber="743" metadataExcelRow="231">
+        <ss:workTitle>Tā sēdēja panāksnieces</ss:workTitle>
+        <ss:VitolinsSource>V II, 743, 287</ss:VitolinsSource>
+        <ss:collector>E. Melngailis</ss:collector>
+        <ss:dateSource>1941</ss:dateSource>
+        <ss:placeSource>Aizputes Alsungā,</ss:placeSource>
+        <ss:Latitude>56.98027802</ss:Latitude>
+        <ss:Longitude>21.56666756</ss:Longitude>
+        <ss:SingerFull>Barbara Grundmane</ss:SingerFull>
+        <ss:SingerBirthYear>1868</ss:SingerBirthYear>
+        <ss:SingerBirthPlace>Aizputes Alsungā,</ss:SingerBirthPlace>
+        <ss:witnessId>IR</ss:witnessId>
+        <ss:singers>
+          <ss:singer slot="a">
+            <ss:givenName>Barbara</ss:givenName>
+            <ss:surname>Grundmane</ss:surname>
+          </ss:singer>
+        </ss:singers>
+      </ss:record>
+    </extMeta>
+    <extMeta>
+      <ss:previousMeiHead>
+        <meiHead>
+          <fileDesc>
+            <titleStmt>
+              <title/>
+            </titleStmt>
+            <pubStmt>
+              <date isodate="2026-09-01T21:01:47"/>
+            </pubStmt>
+          </fileDesc>
+        </meiHead>
+      </ss:previousMeiHead>
+    </extMeta>
+    <revisionDesc>
+      <change isodate="2026-09-01">
+        <changeDesc>
+          <p>Metadata injected for source V II, 743; musical content preserved from V2-0743-a.mei, V2-0743-b.mei.</p>
+        </changeDesc>
+      </change>
+    </revisionDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <pgHead func="first"/>
+            <staffGrp>
+              <staffGrp bar.thru="true" symbol="brace">
+                <label>Track 1</label>
+                <instrDef midi.instrnum="0"/>
+                <staffDef n="1" lines="5" keysig="1s" meter.count="2" meter.unit="4">
+                  <clef shape="G" line="2"/>
+                </staffDef>
+                <staffDef n="2" lines="5" keysig="1s" meter.count="2" meter.unit="4">
+                  <clef shape="G" line="2"/>
+                </staffDef>
+              </staffGrp>
+            </staffGrp>
+          </scoreDef>
+          <section xml:id="s1">
+            <pb/>
+            <app xml:id="app_m1">
+              <rdg source="#wit_V2_0743_a" xml:id="rdg_m1_a">
+                <measure xml:id="wa_m3g4aig" n="1">
+                  <staff xml:id="wa_m1s1" n="1">
+                    <layer xml:id="wa_m1s1l1" n="1">
+                      <note xml:id="wa_nklo7er" type="mscore-beam-none" dur="8" pname="e" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vxkyx7e" place="below" n="1">
+                          <syl>Tā</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_nhhn6h0" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vykuw5b" place="below" n="1">
+                          <syl con="d" wordpos="i">sē</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_nb2yjsx" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v26co0i" place="below" n="1">
+                          <syl con="d" wordpos="m">dē</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_ndo52lv" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vggf9sx" place="below" n="1">
+                          <syl wordpos="t">ja</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wa_m1s2" n="2">
+                    <layer xml:id="wa_m1s2l1" n="1">
+                      <mRest xml:id="wa_mt8rcvo"/>
+                    </layer>
+                  </staff>
+                  <tempo xml:id="wa_tt2caqg" type="mscore-infer-from-text" midi.bpm="120" staff="1" tstamp="1" place="above">
+                    <rend glyph.auth="smufl"></rend> = 120</tempo>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0743_b" xml:id="rdg_m1_b">
+                <measure xml:id="wb_m1wirudi" n="1">
+                  <staff xml:id="wb_m1s1" n="1">
+                    <layer xml:id="wb_m1s1l1" n="1">
+                      <note xml:id="wb_n10r6e69" type="mscore-beam-none" dur="8" pname="e" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v11mir0v" n="1">
+                          <syl>Tā</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_n1f2fb8r" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1gr8m56" n="1">
+                          <syl con="d" wordpos="i">sē</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_n1xm2y3r" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vw56s3m" n="1">
+                          <syl con="d" wordpos="m">dē</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_n1sthd3l" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1nkub52" n="1">
+                          <syl wordpos="t">ja</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wb_m1s2" n="2">
+                    <layer xml:id="wb_m1s2l1" n="1">
+                      <mRest xml:id="wb_m1w6exj1"/>
+                    </layer>
+                  </staff>
+                  <tempo xml:id="wb_t40xcj7" type="mscore-infer-from-text" midi.bpm="120" staff="1" tstamp="1">
+                    <rend glyph.auth="smufl"></rend> = 120</tempo>
+                </measure>
+              </rdg>
+            </app>
+            <app xml:id="app_m2">
+              <rdg source="#wit_V2_0743_a" xml:id="rdg_m2_a">
+                <measure xml:id="wa_m6nf2uq" n="2">
+                  <staff xml:id="wa_m2s1" n="1">
+                    <layer xml:id="wa_m2s1l1" n="1">
+                      <note xml:id="wa_n1ts8d8i" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v11riqll" place="below" n="1">
+                          <syl con="d" wordpos="i">pa</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_nzvginn" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vp341cv" place="below" n="1">
+                          <syl con="d" wordpos="m">nāk</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_ntwyltd" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1cealsa" place="below" n="1">
+                          <syl con="d" wordpos="m">snie</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_nl46d6r" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1glfl5r" place="below" n="1">
+                          <syl wordpos="t">ces,</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wa_m2s2" n="2">
+                    <layer xml:id="wa_m2s2l1" n="1">
+                      <mRest xml:id="wa_m1jxoq13"/>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0743_b" xml:id="rdg_m2_b">
+                <measure xml:id="wb_m2j56r5" n="2">
+                  <staff xml:id="wb_m2s1" n="1">
+                    <layer xml:id="wb_m2s1l1" n="1">
+                      <note xml:id="wb_nty6k9t" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v2lqqqc" n="1">
+                          <syl con="d" wordpos="i">pa</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_nnn8ay0" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vjg3zlp" n="1">
+                          <syl con="d" wordpos="m">nāk</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_ncv752g" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v7wij4z" n="1">
+                          <syl con="d" wordpos="m">snie</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_n1m6iyjb" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v15myttk" n="1">
+                          <syl wordpos="t">ces,</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wb_m2s2" n="2">
+                    <layer xml:id="wb_m2s2l1" n="1">
+                      <mRest xml:id="wb_m1nrjmk0"/>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+            </app>
+            <app xml:id="app_m3">
+              <rdg source="#wit_V2_0743_a" xml:id="rdg_m3_a">
+                <measure xml:id="wa_m1cu0zr4" n="3">
+                  <staff xml:id="wa_m3s1" n="1">
+                    <layer xml:id="wa_m3s1l1" n="1">
+                      <note xml:id="wa_n1jlz064" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vundi2p" place="below" n="1">
+                          <syl>Kā</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_nq6mxi9" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vbtnbac" place="below" n="1">
+                          <syl>tās</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_n1ykvwpg" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v74hxyb" place="below" n="1">
+                          <syl con="d" wordpos="i">pe</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_n39szco" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vb593e" place="below" n="1">
+                          <syl wordpos="t">kas</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wa_m3s2" n="2">
+                    <layer xml:id="wa_m3s2l1" n="1">
+                      <mRest xml:id="wa_m2a29ir"/>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0743_b" xml:id="rdg_m3_b">
+                <measure xml:id="wb_m1d83t0k" n="3">
+                  <staff xml:id="wb_m3s1" n="1">
+                    <layer xml:id="wb_m3s1l1" n="1">
+                      <note xml:id="wb_nxs1iwg" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vrf0x2d" n="1">
+                          <syl>Kā</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_n1522yit" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vv5gw05" n="1">
+                          <syl>tās</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_n1eo4xki" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vrbv0p8" n="1">
+                          <syl con="d" wordpos="i">pe</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_n1u35yr0" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1yt7e1t" n="1">
+                          <syl wordpos="t">kas</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wb_m3s2" n="2">
+                    <layer xml:id="wb_m3s2l1" n="1">
+                      <mRest xml:id="wb_mfcgkqq"/>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+            </app>
+            <app xml:id="app_m4">
+              <rdg source="#wit_V2_0743_a" xml:id="rdg_m4_a">
+                <measure xml:id="wa_m1q17k6p" n="4">
+                  <staff xml:id="wa_m4s1" n="1">
+                    <layer xml:id="wa_m4s1l1" n="1">
+                      <note xml:id="wa_nxx4m1i" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1d61vut" place="below" n="1">
+                          <syl con="d" wordpos="i">birz</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_noiqxr0" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v157ysgn" place="below" n="1">
+                          <syl con="d" wordpos="m">ta</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_n1q6hyi4" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vdu9phe" place="below" n="1">
+                          <syl con="d" wordpos="m">lē</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_nnmy0hm" type="mscore-beam-none" dur="8" pname="e" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v16kdpic" place="below" n="1">
+                          <syl wordpos="t">i;</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wa_m4s2" n="2">
+                    <layer xml:id="wa_m4s2l1" n="1">
+                      <rest xml:id="wa_r1sh7043" dur="4"/>
+                      <rest xml:id="wa_r8oveav" type="mscore-beam-none" dur="8"/>
+                      <note xml:id="wa_nid61z3" type="mscore-beam-none" dur="8" pname="e" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vu250m2" n="1">
+                          <syl>Ē!</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                  <tie xml:id="wa_t1cv1tak" startid="#wa_nid61z3" endid="#wa_nkjzh0m"/>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0743_b" xml:id="rdg_m4_b">
+                <measure xml:id="wb_mooy4z4" n="4">
+                  <staff xml:id="wb_m4s1" n="1">
+                    <layer xml:id="wb_m4s1l1" n="1">
+                      <note xml:id="wb_nxuqu42" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1oh7v6p" n="1">
+                          <syl con="d" wordpos="i">birz</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_n120gzth" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vpfmu6w" n="1">
+                          <syl con="d" wordpos="m">ta</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_n13jdd1n" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1mv6zij" n="1">
+                          <syl con="d" wordpos="m">lē</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_nyyncw2" type="mscore-beam-none" dur="8" pname="e" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1r00pqh" n="1">
+                          <syl wordpos="t">i;</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wb_m4s2" n="2">
+                    <layer xml:id="wb_m4s2l1" n="1">
+                      <rest xml:id="wb_r1e53487" dur="4"/>
+                      <rest xml:id="wb_r15s6d7k" type="mscore-beam-none" dur="8"/>
+                      <note xml:id="wb_nudaaux" type="mscore-beam-none" dur="8" pname="e" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v15olygn" n="1">
+                          <syl>Ē!</syl>
+                        </verse>
+                      </note>
+                    </layer>
+                  </staff>
+                  <tie xml:id="wb_t9y1voq" startid="#wb_nudaaux" endid="#wb_nrca6w4"/>
+                </measure>
+              </rdg>
+            </app>
+            <sb type="mscore-manual"/>
+            <app xml:id="app_m5">
+              <rdg source="#wit_V2_0743_a" xml:id="rdg_m5_a">
+                <measure xml:id="wa_mr41idj" n="5">
+                  <staff xml:id="wa_m5s1" n="1">
+                    <layer xml:id="wa_m5s1l1" n="1">
+                      <note xml:id="wa_n15cy35x" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vemnsaz" n="1">
+                          <syl>Tā</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_n18ikhtw" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vk07sc9" n="1">
+                          <syl con="d" wordpos="i">sē</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_ngfr2wg" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_ve6uz69" n="1">
+                          <syl con="d" wordpos="m">dē</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_n1spgj7t" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v6xwy9b" n="1">
+                          <syl wordpos="t">ja</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wa_m5s2" n="2">
+                    <layer xml:id="wa_m5s2l1" n="1">
+                      <note xml:id="wa_nkjzh0m" dur="2" pname="e" oct="4" stem.dir="up"/>
+                    </layer>
+                  </staff>
+                  <tie xml:id="wa_t1p6gkz" startid="#wa_nkjzh0m" endid="#wa_nfu52se"/>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0743_b" xml:id="rdg_m5_b">
+                <measure xml:id="wb_my3emj8" n="5">
+                  <staff xml:id="wb_m5s1" n="1">
+                    <layer xml:id="wb_m5s1l1" n="1">
+                      <note xml:id="wb_n1dsd2o4" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1o3uege" n="1">
+                          <syl>Tā</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_n122vw7h" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vxt977k" n="1">
+                          <syl con="d" wordpos="i">sē</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_n1l04d76" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vq3rzip" n="1">
+                          <syl con="d" wordpos="m">dē</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_no0zz4e" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vyu6nge" n="1">
+                          <syl wordpos="t">ja</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wb_m5s2" n="2">
+                    <layer xml:id="wb_m5s2l1" n="1">
+                      <note xml:id="wb_nrca6w4" dur="2" pname="e" oct="4" stem.dir="up"/>
+                    </layer>
+                  </staff>
+                  <tie xml:id="wb_t1gb7i1o" startid="#wb_nrca6w4" endid="#wb_na7gyth"/>
+                </measure>
+              </rdg>
+            </app>
+            <app xml:id="app_m6">
+              <rdg source="#wit_V2_0743_a" xml:id="rdg_m6_a">
+                <measure xml:id="wa_m1uidnkx" n="6">
+                  <staff xml:id="wa_m6s1" n="1">
+                    <layer xml:id="wa_m6s1l1" n="1">
+                      <note xml:id="wa_n1u533vm" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vtbem97" n="1">
+                          <syl con="d" wordpos="i">pa</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_n1ba2epp" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vh53cf3" n="1">
+                          <syl con="d" wordpos="m">nāk</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_nwpn3o5" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1jbd54j" n="1">
+                          <syl con="d" wordpos="m">snie</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_n1l652ti" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v11b5ii0" n="1">
+                          <syl wordpos="t">ces,</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wa_m6s2" n="2">
+                    <layer xml:id="wa_m6s2l1" n="1">
+                      <note xml:id="wa_nfu52se" dur="2" pname="e" oct="4" stem.dir="up"/>
+                    </layer>
+                  </staff>
+                  <tie xml:id="wa_t1ct740w" startid="#wa_nfu52se" endid="#wa_n1uv5mtl"/>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0743_b" xml:id="rdg_m6_b">
+                <measure xml:id="wb_m1svhtp8" n="6">
+                  <staff xml:id="wb_m6s1" n="1">
+                    <layer xml:id="wb_m6s1l1" n="1">
+                      <note xml:id="wb_npzr1be" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1mh3hik" n="1">
+                          <syl con="d" wordpos="i">pa</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_n1nsuxie" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vikq1wx" n="1">
+                          <syl con="d" wordpos="m">nāk</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_n1lebwa0" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vjcbm9g" n="1">
+                          <syl con="d" wordpos="m">snie</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_np4f0bs" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1ka1gh4" n="1">
+                          <syl wordpos="t">ces,</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wb_m6s2" n="2">
+                    <layer xml:id="wb_m6s2l1" n="1">
+                      <note xml:id="wb_na7gyth" dur="2" pname="e" oct="4" stem.dir="up"/>
+                    </layer>
+                  </staff>
+                  <tie xml:id="wb_t11r650" startid="#wb_na7gyth" endid="#wb_n4mb9p5"/>
+                </measure>
+              </rdg>
+            </app>
+            <app xml:id="app_m7">
+              <rdg source="#wit_V2_0743_a" xml:id="rdg_m7_a">
+                <measure xml:id="wa_mbtozj6" n="7">
+                  <staff xml:id="wa_m7s1" n="1">
+                    <layer xml:id="wa_m7s1l1" n="1">
+                      <note xml:id="wa_n7o7a0k" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vu95xr2" n="1">
+                          <syl>Kā</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_n3psr9v" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v7k7n55" n="1">
+                          <syl>tās</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_nd7xhfg" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vx0ncld" n="1">
+                          <syl con="d" wordpos="i">pe</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_n1z00ofl" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v3lymky" n="1">
+                          <syl wordpos="t">kas</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wa_m7s2" n="2">
+                    <layer xml:id="wa_m7s2l1" n="1">
+                      <note xml:id="wa_n1uv5mtl" dur="2" pname="e" oct="4" stem.dir="up"/>
+                    </layer>
+                  </staff>
+                  <tie xml:id="wa_t5uq0gl" startid="#wa_n1uv5mtl" endid="#wa_n1ahiape"/>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0743_b" xml:id="rdg_m7_b">
+                <measure xml:id="wb_maaony8" n="7">
+                  <staff xml:id="wb_m7s1" n="1">
+                    <layer xml:id="wb_m7s1l1" n="1">
+                      <note xml:id="wb_n1115tyt" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v12gncq3" n="1">
+                          <syl>Kā</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_n131jmwk" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1td6dlh" n="1">
+                          <syl>tās</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_n16vbn24" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v193p4tz" n="1">
+                          <syl con="d" wordpos="i">pe</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_ncwldk2" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vcqkpfa" n="1">
+                          <syl wordpos="t">kas</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wb_m7s2" n="2">
+                    <layer xml:id="wb_m7s2l1" n="1">
+                      <note xml:id="wb_n4mb9p5" dur="2" pname="e" oct="4" stem.dir="up"/>
+                    </layer>
+                  </staff>
+                  <tie xml:id="wb_tilx3u1" startid="#wb_n4mb9p5" endid="#wb_n10d5dhk"/>
+                </measure>
+              </rdg>
+            </app>
+            <app xml:id="app_m8">
+              <rdg source="#wit_V2_0743_a" xml:id="rdg_m8_a">
+                <measure xml:id="wa_mzgek3a" n="8">
+                  <staff xml:id="wa_m8s1" n="1">
+                    <layer xml:id="wa_m8s1l1" n="1">
+                      <note xml:id="wa_n5vp75a" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v11lm4mq" n="1">
+                          <syl con="d" wordpos="i">birz</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_n16acb5q" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vmq5uls" n="1">
+                          <syl con="d" wordpos="m">ta</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_nb355vf" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1ml40qf" n="1">
+                          <syl con="d" wordpos="m">lē</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_n1dgumzq" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_vm9xbpc" n="1">
+                          <syl wordpos="t">i,</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wa_m8s2" n="2">
+                    <layer xml:id="wa_m8s2l1" n="1">
+                      <note xml:id="wa_n1ahiape" dur="2" pname="e" oct="4" stem.dir="up"/>
+                    </layer>
+                  </staff>
+                  <tie xml:id="wa_tgiowqx" startid="#wa_n1ahiape" endid="#wa_n1ure6k5"/>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0743_b" xml:id="rdg_m8_b">
+                <measure xml:id="wb_mambm8h" n="8">
+                  <staff xml:id="wb_m8s1" n="1">
+                    <layer xml:id="wb_m8s1l1" n="1">
+                      <note xml:id="wb_n1u6tjf0" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vqkawwu" n="1">
+                          <syl con="d" wordpos="i">birz</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_nq12df6" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vutjsr6" n="1">
+                          <syl con="d" wordpos="m">ta</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_nokcvkb" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_vipv924" n="1">
+                          <syl con="d" wordpos="m">lē</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_no8fvb9" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1h25si6" n="1">
+                          <syl wordpos="t">i,</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wb_m8s2" n="2">
+                    <layer xml:id="wb_m8s2l1" n="1">
+                      <note xml:id="wb_n10d5dhk" dur="2" pname="e" oct="4" stem.dir="up"/>
+                    </layer>
+                  </staff>
+                  <tie xml:id="wb_tc6m36h" startid="#wb_n10d5dhk" endid="#wb_nswkk8b"/>
+                </measure>
+              </rdg>
+            </app>
+            <scoreDef meter.count="3" meter.unit="4"/>
+            <app xml:id="app_m9">
+              <rdg source="#wit_V2_0743_a" xml:id="rdg_m9_a">
+                <measure xml:id="wa_m2eq9rd" n="9">
+                  <staff xml:id="wa_m9s1" n="1">
+                    <layer xml:id="wa_m9s1l1" n="1">
+                      <note xml:id="wa_n1ek4kfi" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v2k5vz0" n="1">
+                          <syl con="d" wordpos="i">birz</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wa_nqbq36y" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1y5eyr0" n="1">
+                          <syl con="d" wordpos="m">ta</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wa_nlbv1yc" dur="2" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wa_v1vudcun" n="1">
+                          <syl wordpos="t">lē:</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wa_m9s2" n="2">
+                    <layer xml:id="wa_m9s2l1" n="1">
+                      <note xml:id="wa_n1ure6k5" dots="1" dur="2" pname="e" oct="4" stem.dir="up"/>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+              <rdg source="#wit_V2_0743_b" xml:id="rdg_m9_b">
+                <measure xml:id="wb_m1lowb1f" n="9">
+                  <staff xml:id="wb_m9s1" n="1">
+                    <layer xml:id="wb_m9s1l1" n="1">
+                      <note xml:id="wb_nlhb6fo" type="mscore-beam-none" dur="8" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v3io7da" n="1">
+                          <syl con="d" wordpos="i">birz</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                      <note xml:id="wb_n2utrtt" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v17gho65" n="1">
+                          <syl con="d" wordpos="m">ta</syl>
+                        </verse>
+                      </note>
+                      <note xml:id="wb_nq679qq" dur="2" pname="f" oct="4" stem.dir="up">
+                        <verse xml:id="wb_v1m2s815" n="1">
+                          <syl wordpos="t">lē:</syl>
+                        </verse>
+                        <accid accid.ges="s"/>
+                      </note>
+                    </layer>
+                  </staff>
+                  <staff xml:id="wb_m9s2" n="2">
+                    <layer xml:id="wb_m9s2l1" n="1">
+                      <note xml:id="wb_nswkk8b" dots="1" dur="2" pname="e" oct="4" stem.dir="up"/>
+                    </layer>
+                  </staff>
+                </measure>
+              </rdg>
+            </app>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
