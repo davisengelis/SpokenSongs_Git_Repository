@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1+basic">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2026-08-26T12:42:45" />
+         </pubStmt>
+      </fileDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <pgHead func="first" />
+                  <staffGrp>
+                     <staffDef n="1" lines="5" keysig="1s" meter.count="2" meter.unit="4">
+                        <instrDef midi.instrnum="0" />
+                        <clef shape="G" line="2" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <pb />
+                  <measure xml:id="mlt6u8v" n="1">
+                     <staff xml:id="m1s1" n="1">
+                        <layer xml:id="m1s1l1" n="1">
+                           <note xml:id="n16ea5wq" type="mscore-beam-none" dur="8" pname="b" oct="4" stem.dir="up">
+                              <verse xml:id="vy78rc0" place="below" n="1">
+                                 <syl con="d" wordpos="i">Tik</syl>
+                              </verse>
+                              <verse xml:id="v100u21h" place="below" n="2">
+                                 <syl>Vilcējas:Ē!</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="ndd4z6n" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v1vzvjr2" place="below" n="1">
+                                 <syl wordpos="t">mēr</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="nj6dhp8" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v1164ceo" place="below" n="1">
+                                 <syl con="d" wordpos="i">si</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="nexbuk7" type="mscore-beam-none" dur="8" pname="d" oct="4" stem.dir="up">
+                              <verse xml:id="v1t1ri8z" place="below" n="1">
+                                 <syl wordpos="t">tu</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="m1s1l2" n="2">
+                           <note xml:id="n17htsba" dur="2" pname="g" oct="4" stem.dir="down" />
+                        </layer>
+                     </staff>
+                     <tempo xml:id="t17pjqoa" type="mscore-infer-from-text" midi.bpm="120" staff="1" tstamp="1" place="above">Ātri</tempo>
+                     <tie xml:id="t1ltfln9" startid="#n17htsba" endid="#n1xh41x0" />
+                  </measure>
+                  <measure xml:id="mbw4m8x" n="2">
+                     <staff xml:id="m2s1" n="1">
+                        <layer xml:id="m2s1l1" n="1">
+                           <note xml:id="n1si5qns" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v2zg9ed" place="below" n="1">
+                                 <syl con="d" wordpos="i">tau</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n95u454" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="vltwq53" place="below" n="1">
+                                 <syl wordpos="t">tu</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n9azxdh" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v1jq4gu5" place="below" n="1">
+                                 <syl con="d" wordpos="i">gal</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="nzl2x1i" type="mscore-beam-none" dur="8" pname="a" oct="4" stem.dir="up">
+                              <verse xml:id="v1i7uqpv" place="below" n="1">
+                                 <syl wordpos="t">du,</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="m2s1l2" n="2">
+                           <note xml:id="n1xh41x0" dur="2" pname="g" oct="4" stem.dir="down" />
+                        </layer>
+                     </staff>
+                     <tie xml:id="tfa3wn1" startid="#n1xh41x0" endid="#n82ggvf" />
+                  </measure>
+                  <measure xml:id="movjbou" n="3">
+                     <staff xml:id="m3s1" n="1">
+                        <layer xml:id="m3s1l1" n="1">
+                           <note xml:id="n4rpyvj" type="mscore-beam-none" dur="8" pname="b" oct="4" stem.dir="up">
+                              <verse xml:id="vo418w0" place="below" n="1">
+                                 <syl>Līdz</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1e7u4xz" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="vl8ek9r" place="below" n="1">
+                                 <syl>tas</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="nznoq6c" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="verkk1c" place="below" n="1">
+                                 <syl con="d" wordpos="i">plī</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n6b41lo" type="mscore-beam-none" dur="8" pname="d" oct="4" stem.dir="up">
+                              <verse xml:id="vn7vhba" place="below" n="1">
+                                 <syl wordpos="t">sa</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="m3s1l2" n="2">
+                           <note xml:id="n82ggvf" dur="2" pname="g" oct="4" stem.dir="down" />
+                        </layer>
+                     </staff>
+                     <tie xml:id="tv7v0e6" startid="#n82ggvf" endid="#n35q042" />
+                  </measure>
+                  <measure xml:id="m1hvj6sm" n="4">
+                     <staff xml:id="m4s1" n="1">
+                        <layer xml:id="m4s1l1" n="1">
+                           <note xml:id="nfkfj5v" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v10ng8yy" place="below" n="1">
+                                 <syl con="d" wordpos="i">šķē</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="nzwh0nt" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v805tib" place="below" n="1">
+                                 <syl con="d" wordpos="m">pe</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="nhunb8u" dur="4" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v8yxeuz" place="below" n="1">
+                                 <syl wordpos="t">lēs;</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="m4s1l2" n="2">
+                           <note xml:id="n35q042" dur="2" pname="g" oct="4" stem.dir="down" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb type="mscore-manual" />
+                  <measure xml:id="m133vih1" left="rptstart" n="5">
+                     <staff xml:id="m5s1" n="1">
+                        <layer xml:id="m5s1l1" n="1">
+                           <note xml:id="n1w3gf2n" type="mscore-beam-none" dur="8" pname="b" oct="4" stem.dir="up">
+                              <verse xml:id="v1yihta3" place="below" n="1">
+                                 <syl>Lai</syl>
+                              </verse>
+                              <verse xml:id="vt35yno" place="below" n="2">
+                                 <syl>Ē!</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="nmqrjuk" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v1lqufq1" place="below" n="1">
+                                 <syl con="d" wordpos="i">tau</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="nfnkbkd" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v1pad064" place="below" n="1">
+                                 <syl con="d" wordpos="m">tā</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1oeurm0" type="mscore-beam-none" dur="8" pname="e" oct="4" stem.dir="up">
+                              <verse xml:id="vqwhr78" place="below" n="1">
+                                 <syl wordpos="t">mi</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="m5s1l2" n="2">
+                           <note xml:id="n15pq41v" dur="2" pname="g" oct="4" stem.dir="down" />
+                        </layer>
+                     </staff>
+                     <tie xml:id="tisu6x0" startid="#n15pq41v" endid="#n1rafq04" />
+                  </measure>
+                  <measure xml:id="mdfccpf" n="6">
+                     <staff xml:id="m6s1" n="1">
+                        <layer xml:id="m6s1l1" n="1">
+                           <note xml:id="ncedl7r" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="vjra2ul" place="below" n="1">
+                                 <syl con="d" wordpos="i">gal</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1715hp1" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v8gvb34" place="below" n="1">
+                                 <syl wordpos="t">du</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1jtla4y" dur="4" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v1xatrp5" place="below" n="1">
+                                 <syl>žēl,</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="m6s1l2" n="2">
+                           <note xml:id="n1rafq04" dur="2" pname="g" oct="4" stem.dir="down" />
+                        </layer>
+                     </staff>
+                     <tie xml:id="t1cgilfn" startid="#n1rafq04" endid="#nw6rpuz" />
+                  </measure>
+                  <measure xml:id="mei8h3j" n="7">
+                     <staff xml:id="m7s1" n="1">
+                        <layer xml:id="m7s1l1" n="1">
+                           <note xml:id="ni22w2k" type="mscore-beam-none" dur="8" pname="b" oct="4" stem.dir="up">
+                              <verse xml:id="vetfxk7" place="below" n="1">
+                                 <syl>Kā</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="njdwo0v" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="vsvdozl" place="below" n="1">
+                                 <syl>man</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="njg7ebl" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="vvg2tej" place="below" n="1">
+                                 <syl con="d" wordpos="i">sa</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n4a4d1n" type="mscore-beam-none" dur="8" pname="e" oct="4" stem.dir="up">
+                              <verse xml:id="v19u96x4" place="below" n="1">
+                                 <syl wordpos="t">vas</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="m7s1l2" n="2">
+                           <note xml:id="nw6rpuz" dur="2" pname="g" oct="4" stem.dir="down" />
+                        </layer>
+                     </staff>
+                     <tie xml:id="taljvfp" startid="#nw6rpuz" endid="#n1v4d6lm" />
+                  </measure>
+                  <measure xml:id="mm7d9na" type="mscore-repeat-2" right="rptend" n="8">
+                     <staff xml:id="m8s1" n="1">
+                        <layer xml:id="m8s1l1" n="1">
+                           <note xml:id="nh0c67m" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v1x0p4rs" place="below" n="1">
+                                 <syl con="d" wordpos="i">mā</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="nzqkfla" type="mscore-beam-none" dur="8" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="v5of3zk" place="below" n="1">
+                                 <syl wordpos="t">sas</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1o7mvlk" dur="4" pname="g" oct="4" stem.dir="up">
+                              <verse xml:id="vcv1saj" place="below" n="1">
+                                 <syl>žēl.</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                        <layer xml:id="m8s1l2" n="2">
+                           <note xml:id="n1v4d6lm" dur="2" pname="g" oct="4" stem.dir="down" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

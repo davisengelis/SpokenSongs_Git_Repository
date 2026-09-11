@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spoken Songs MEI Research Viewer</title>
+  <script src="https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Spoken Songs MEI Research Viewer</h1>
+      <p class="subtitle">Browse enriched MEI, switch witnesses, and inspect variant-analysis results.</p>
+    </div>
+    <div class="load-controls">
+      <label class="file-button">
+        1. Choose enriched folder
+        <input id="folder-input" type="file" webkitdirectory directory multiple accept=".mei,.xml">
+      </label>
+      <label class="file-button secondary">
+        2. Choose analysis CSVs
+        <input id="analysis-input" type="file" multiple accept=".csv,text/csv">
+      </label>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="corpus-stats" id="corpus-stats">No corpus loaded.</div>
+      <div class="analysis-stats" id="analysis-stats">No analysis loaded.</div>
+
+      <input
+        id="search"
+        type="search"
+        placeholder="Search source, title, filename…"
+        autocomplete="off"
+        disabled
+      >
+
+      <div class="filters">
+        <label><input id="variants-only" type="checkbox" disabled> Variants only</label>
+        <label><input id="analysed-only" type="checkbox" disabled> Analysed only</label>
+      </div>
+
+      <div id="index-progress" class="progress"></div>
+      <div id="song-list" class="song-list"></div>
+    </aside>
+
+    <section class="workspace">
+      <section class="viewer">
+        <div class="viewer-toolbar">
+          <div>
+            <div id="song-heading" class="song-heading">Choose the enriched folder to begin.</div>
+            <div id="song-meta" class="song-meta"></div>
+          </div>
+
+          <div class="reading-controls">
+            <span id="reading-label"></span>
+            <span id="witness-buttons"></span>
+          </div>
+
+          <div class="page-controls">
+            <button id="prev-page" disabled>Previous page</button>
+            <span id="page-status"></span>
+            <button id="next-page" disabled>Next page</button>
+          </div>
+        </div>
+
+        <div id="status" class="status">Verovio is loading…</div>
+        <div id="notation" class="notation"></div>
+      </section>
+
+      <section class="analysis-panel" id="analysis-panel">
+        <div class="analysis-header">
+          <div>
+            <h2>Variant analysis</h2>
+            <div id="analysis-subtitle" class="analysis-subtitle">Load the pilot CSVs to show analysis here.</div>
+          </div>
+        </div>
+
+        <div id="summary-cards" class="summary-cards"></div>
+
+        <div class="analysis-section">
+          <h3>Witness-pair summary</h3>
+          <div id="pairwise-table" class="table-wrap empty-analysis">No analysis loaded.</div>
+        </div>
+
+        <div class="analysis-section">
+          <h3>Measure comparisons</h3>
+          <div class="measure-help">Click a measure row to highlight that measure in the current reading.</div>
+          <div id="measure-table" class="table-wrap empty-analysis">No analysis loaded.</div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="viewer.js"></script>
+</body>
+</html>

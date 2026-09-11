@@ -1,0 +1,7 @@
+﻿source_number,witness_a,witness_b,measures_compared,identical_measures,variant_measures,variant_measure_pct,pitch_variant_measures,rhythm_variant_measures,text_variant_measures,variant_measures_with_preserved_contour,contour_preserved_pct_of_variant,aligned_pitch_substitutions,small_pitch_changes_le_2_semitones,small_pitch_change_pct
+1,a,b,9,0,9,100.0,1,0,9,8,88.9,2,1,50.0
+560,a,b,8,0,8,100.0,2,2,8,5,62.5,0,0,100.0
+743,a,b,9,7,2,22.2,2,0,0,0,0.0,2,2,100.0
+779,a,b,8,0,8,100.0,2,2,8,6,75.0,0,0,100.0
+779,a,c,8,0,8,100.0,3,3,8,5,62.5,0,0,100.0
+779,b,c,8,1,7,87.5,2,1,7,5,71.4,1,1,100.0
