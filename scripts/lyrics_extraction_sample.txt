@@ -1,0 +1,11 @@
+# Paths are relative to the image root passed to lyrics_extract_with_claude.py.
+book_data/V VI/screenshots/V6-0001.png
+book_data/V VI/screenshots/V6-0009.png
+book_data/V VI/screenshots/V6-0078.png
+book_data/V VI/screenshots/V6-0180.png
+book_data/V VI/screenshots/V6-0315.png
+book_data/V V/screenshots/V5-0011.png
+book_data/V V/screenshots/V5-0012.png
+book_data/V V/screenshots/V5-0094.png
+book_data/V V/screenshots/V5-0095.png
+book_data/V V/screenshots/V5-0109.png
